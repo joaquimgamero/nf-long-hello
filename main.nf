@@ -42,7 +42,7 @@ process sayHello {
 
 
     echo 'Sleeping 1 min...'
-    sleep 1m
+    sleep 60
     """
 }
 
