@@ -40,7 +40,9 @@ process sayHello {
     echo '$x world!'
     echo '$x world!'
 
-    sleep 60
+
+    echo 'Sleeping 1 min...'
+    sleep 1m
     """
 }
 
