@@ -39,6 +39,8 @@ process sayHello {
     echo '$x world!'
     echo '$x world!'
     echo '$x world!'
+
+    sleep 60
     """
 }
 
