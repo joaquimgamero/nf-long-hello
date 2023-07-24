@@ -47,5 +47,5 @@ process sayHello {
 }
 
 workflow {
-  Channel.of('Bonjour', 'Ciao', 'Hello', 'Hola') | sayHello | view
+  Channel.of('Hello', 'Hola', 'Bonjour', 'Guten Tag', 'Ciao', 'Olá', 'Hej', 'Hoi', 'Nǐ hǎo', 'Konnichiwa', 'Annyeonghaseyo', 'Salaam', 'Merhaba', 'Shalom', 'Namaste', 'Zdravstvuyte', 'Cześć', 'Szervusz', 'Hei', 'Tere', 'Hallo', 'Γεια σας', 'Ahoj', 'Sveiki', 'Jambo', 'Kamusta', 'Halloj', 'Moi', 'Selam', 'Xin chào') | sayHello | view
 }
